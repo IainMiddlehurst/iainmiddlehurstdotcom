@@ -4,9 +4,9 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
+  background: $dark-grey;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $white-color;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -61,5 +61,18 @@
         font-size: 2rem;
       }
     }
+  }
+
+  .hero-wave {
+    display: inline-block;
+    animation: wave 1s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+  }
+
+  @keyframes wave {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(20deg);}
+    100% {transform: rotate(0deg);}
   }
 }
