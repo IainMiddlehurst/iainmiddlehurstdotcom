@@ -41,12 +41,6 @@ const About = () => {
                 <p className="about-wrapper__info-text">{paragraphOne}</p>
                 <p className="about-wrapper__info-text">{paragraphTwo}</p>
                 <p className="about-wrapper__info-text">{paragraphThree}</p>
-                <Link to="https://www.bbc.co.uk/news">BBC News</Link>
-                <Link to="https://www.bbc.co.uk/sport">BBC Sport</Link>
-                <Link to="https://www.bbc.co.uk/cbbc">CBBC</Link>
-                <Link to="https://www.bbc.co.uk/cbeebies">Cbeebies</Link>
-                <Link to="https://www.bbc.co.uk/ownit">BBC Ownit</Link>
-                <Link to="https://www.bbc.co.uk/newsround">Newsround</Link>
               </div>
             </Fade>
           </Col>
