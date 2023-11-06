@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: "Here's a prentious photo of me looking thoughtful.",
   paragraphTwo:
-    "I'm a Software Engineering Team Lead at the BBC where I help them build awesome teams who build great products.",
+    "I'm a Software Engineering Manager at the BBC where I help them build awesome teams who build great products.",
   paragraphThree:
     "If you go to the BBC website chances are you will have seen some of my team's work. I've worked on BBC News, Sport, CBBC, Cbeebies, Ownit and Newsround. If you haven't seen them you should check them out. They are great!",
   resume: '', // if no resume, the button will not show up
@@ -61,5 +61,5 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'iainnotandrew@gmail.com',
+  email: '',
 };
